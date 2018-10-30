@@ -9,14 +9,14 @@
 	<artifactId>taotao-manager-service</artifactId>
 	<packaging>war</packaging>
 	<dependencies>
-            <!-- taotao dao依赖 -->
+		<!-- taotao dao依赖 -->
 		<dependency>
 			<groupId>com.taotao</groupId>
 			<artifactId>taotao-manager-dao</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-            <!-- taotao的接口的依赖 -->
-            <dependency>
+		<!-- taotao的接口的依赖 -->
+		<dependency>
 			<groupId>com.taotao</groupId>
 			<artifactId>taotao-manager-interface</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
@@ -51,5 +51,30 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context-support</artifactId>
 		</dependency>
+	
+	<!-- dubbo相关 -->
+	<dependency>
+		<groupId>com.alibaba</groupId>
+		<artifactId>dubbo</artifactId>
+		<!--排除依赖  默认已经依赖了Spring2.5.6 netty同理  -->
+		<exclusions>
+			<exclusion>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring</artifactId>
+			</exclusion>
+			<exclusion>
+				<groupId>org.jboss.netty</groupId>
+				<artifactId>netty</artifactId>
+			</exclusion>
+		</exclusions>
+	</dependency>
+	<dependency>
+		<groupId>org.apache.zookeeper</groupId>
+		<artifactId>zookeeper</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>com.github.sgroschupf</groupId>
+		<artifactId>zkclient</artifactId>
+	</dependency>
 	</dependencies>
 </project>
