@@ -10,6 +10,13 @@
 <item elementID="=taotao-manager-interface" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=taotao-manager-web" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1540969084177_6" label="mybais" name="mybais">
+<item elementID="=pagehelper" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1540818549429_0" label="Window Working Set" name="Aggregate for window 1540818549429"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1540982389162_5" label="Multiple Working Sets" name="Aggregate:mybais:taotao:">
+<workingSet IMemento.internal.id="mybais"/>
+<workingSet IMemento.internal.id="taotao"/>
+</workingSet>
 <mruList name="taotao"/>
 </workingSetManager>

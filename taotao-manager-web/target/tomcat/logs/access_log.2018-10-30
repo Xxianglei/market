@@ -1,2 +1,0 @@
-0:0:0:0:0:0:0:1 - - [30/Oct/2018:21:24:56 +0800] "GET /test/qureyNow HTTP/1.1" 200 21 http-bio-8081-exec-1 856
-0:0:0:0:0:0:0:1 - - [30/Oct/2018:21:24:56 +0800] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8081-exec-3 4
