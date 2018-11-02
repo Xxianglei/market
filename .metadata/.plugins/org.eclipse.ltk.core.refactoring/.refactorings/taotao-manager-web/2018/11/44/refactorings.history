@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;taotao-portal-web/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;taotao-manager-web&apos;&#x0D;&#x0A;- Destination element: &apos;taotao-portal-web/src/main/resources&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     log4j.properties&#x0D;&#x0A;     spring" description="Copy elements" destination="=taotao-portal-web/src\/main\/resources" element1="src/main/resources/log4j.properties" element2="src/main/resources/spring" files="1" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1541162480721" units="0" version="1.0"/>
+</session>

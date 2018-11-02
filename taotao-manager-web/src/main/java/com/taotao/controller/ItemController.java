@@ -21,7 +21,7 @@ public class ItemController {
 	public EasyUIDataGridResult getItemList(HttpServletRequest rqRequest){
 		Integer page=Integer.parseInt(rqRequest.getParameter("page"));
 		Integer rows=Integer.parseInt(rqRequest.getParameter("rows"));
-		
+		System.out.println(page+rows+"------->");
 		return item.getItemList(page, rows);
 		
 	}

@@ -22,5 +22,8 @@
 		ref="testServiceimpl" />
 	<dubbo:service interface="com.taotao.service.ItemService"
 		ref="itemServiceimpl" />
+			<dubbo:service interface="com.taotao.service.ItemCatService"
+		ref="itemCatServiceimpl" />
+		
 
 </beans>

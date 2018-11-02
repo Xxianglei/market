@@ -1,8 +1,9 @@
 package com.taotao.common.pojo;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class EasyUIDataGridResult {
+public class EasyUIDataGridResult implements Serializable {
 
     private Integer total;
     // 泛型  接受多种
