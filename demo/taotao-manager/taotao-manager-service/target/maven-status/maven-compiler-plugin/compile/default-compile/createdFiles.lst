@@ -1,0 +1,4 @@
+com\taotao\service\impl\ItemServiceimpl.class
+com\taotao\service\impl\TestServiceimpl.class
+com\taotao\service\impl\ItemCatServiceimpl.class
+com\taotao\service\impl\PictureServiceimpl.class
